@@ -4,6 +4,7 @@
 
 In a typical Terraform project you have the following directory tree:
 
+```
 ├── main.tf                      # Here starts the execution.
 ├── modules                      # Here is where resources are stored.
 │   └── aws_ec2_instances        # Here is where is defined your resource.
@@ -18,6 +19,7 @@ In a typical Terraform project you have the following directory tree:
 ├── README.md
 ├── variables.tf                 # input variables for this project
 └── versions.tf                  # versions that runs the project
+```
 
 You will execute the following commands with terraform installed in your pc:
 
